@@ -13,11 +13,7 @@
 //   }
 
 //   let result = newPrice(2000, 15)
-
 //   console.log(result)
-
-
-
 
 
 
