@@ -60,6 +60,6 @@ function finalScore(omr) {
     }
 }
 
-// let omrResult = finalScore("22")
+
 let omrResult = finalScore({ right: 80, wrong: 25, skip: 0 })
 console.log(omrResult)
