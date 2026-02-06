@@ -43,8 +43,6 @@
 
 
 
-
-
 /*function signature/sample */
 function finalScore(omr) {
     let add = omr.wrong + omr.right + omr.skip
