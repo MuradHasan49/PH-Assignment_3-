@@ -41,24 +41,23 @@
 
 
 // /*function signature/sample */
-function finalScore(omr) {
-    let add = omr.wrong + omr.right + omr.skip
-    let rightAnsMark = omr.right * 1
-    let worngMark = omr.wrong * 0.5
-    let resultIs = rightAnsMark - worngMark
+// function finalScore(omr) {
+//     let add = omr.wrong + omr.right + omr.skip
+//     let rightAnsMark = omr.right * 1
+//     let worngMark = omr.wrong * 0.5
+//     let resultIs = rightAnsMark - worngMark
 
-    let con = (typeof omr == 'object' && add == 100)
-    if (!con) {
-        return "Invalid"
-    } else {
-        return Math.round(resultIs)
-    }
-}
+//     let con = (typeof omr == 'object' && add == 100)
+//     if (!con) {
+//         return "Invalid"
+//     } else {
+//         return Math.round(resultIs)
+//     }
+// }
 
 
-// let omrResult = finalScore({ right: 80, wrong: 20, skip: 0 })
-let omrResult = finalScore("hello")
-console.log(omrResult)
+// let omrResult = finalScore({ right: 80, wrong: 25, skip: 0 })
+// console.log(omrResult)
 
 
 
