@@ -33,14 +33,13 @@ function finalScore(omr) {
     let worngMark = omr.wrong * 0.5
     let resultIs = rightAnsMark - worngMark
 
-    let con = (typeof omr == 'object' && add == 100)
+    let con = (typeof omr == 'object' && add == 100  )
     if (!con) {
         return "Invalid"
     } else {
         return Math.round(resultIs)
     }
 }
-
 
 //Problem-04: Upcoming Gono Vote
 function gonoVote(array) {
@@ -85,9 +84,6 @@ function analyzeText(str) {
             longestWord = word
         }
     }
-return {
-    longwords: longestWord,
-    "token"  : sp.length
-}
+return {"longwords": longestWord,"token"  : sp.length}
 }
 
