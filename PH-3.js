@@ -62,31 +62,31 @@
 
 
 /*function signature/sample */
-function gonoVote(array) {
-    if (!Array.isArray(array)) {
-        return "Invalid"
+// function gonoVote(array) {
+//     if (!Array.isArray(array)) {
+//         return "Invalid"
 
-    }
-    
-    let haIs = [];
-    let naIs = [];
-    for (let i of array) {
-        if (i == "ha") {
-            haIs.push(i)
-        } else if (i == "na") {
-            naIs.push(i)
-        }
-    }
+//     }
 
-    if (haIs.length > naIs.length) {
-        return true
-    } else if (haIs.length === naIs.length) {
-        return "equal"
+//     let haIs = [];
+//     let naIs = [];
+//     for (let i of array) {
+//         if (i == "ha") {
+//             haIs.push(i)
+//         } else if (i == "na") {
+//             naIs.push(i)
+//         }
+//     }
 
-    } else {
-        return false
-    }
-}
+//     if (haIs.length > naIs.length) {
+//         return true
+//     } else if (haIs.length === naIs.length) {
+//         return "equal"
 
-let gonoVoteResult = gonoVote(1213)
+//     } else {
+//         return false
+//     }
+// }
+
+let gonoVoteResult = gonoVote(["ha", "ha", "ha", "na"])
 console.log(gonoVoteResult)
