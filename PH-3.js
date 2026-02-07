@@ -93,8 +93,27 @@
 
 
 /*function signature/sample */
-function  analyzeText(str) {
-          // You have to write your code here
+function analyzeText(str) {
+
+    let isTrue = (typeof str === "string" && str.length > 0)
+    if (!isTrue) {
+        return "Invalid";
+    }
+    let sp = str.split(" ").join("")
+
+    let words = str.split(" ")
+    let longestWord = words[0]
+    for( let word of words){
+        if (word.length > longestWord.length){
+            longestWord = word
+        }
+    }
+return {
+    longestWord: longestWord,
+    "token"  : sp.length
+}
 }
 
+let ai = analyzeText("Programming is fun")
+console.log(ai)
 
