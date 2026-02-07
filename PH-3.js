@@ -82,11 +82,19 @@
 //         return true
 //     } else if (haIs.length === naIs.length) {
 //         return "equal"
-
 //     } else {
 //         return false
 //     }
 // }
 
-let gonoVoteResult = gonoVote(["ha", "ha", "ha", "na"])
-console.log(gonoVoteResult)
+// let gonoVoteResult = gonoVote(["ha", "ha", "ha", "na"])
+// console.log(gonoVoteResult)
+
+
+
+/*function signature/sample */
+function  analyzeText(str) {
+          // You have to write your code here
+}
+
+
